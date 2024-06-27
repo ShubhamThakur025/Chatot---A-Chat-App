@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+#root {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(39, 39, 39);
+}
+
+.bg {
+  width: 50vw;
+  background: white;
+  padding: 30px 50px;
+}
+
+#sendBtn {
+  padding: 5px;
+  background-color: rgb(43, 43, 43);
+  color: white;
+  border-radius: 5px;
+}
+
+.input,
+#msgInput {
+  padding: 5px;
+  background-color: rgb(206, 206, 206);
+  border: none;
+  border: 2px solid gray;
+  border-radius: 5px;
+}
+
+.login-form {
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.login-form input {
+  width: 30vw;
+  background-color: rgb(255, 255, 255);
+  font-size: 15px;
+  color: rgb(43, 43, 43);
+  padding: 12px 15px;
+  margin: 10px;
+  border: 1px solid rgb(90, 90, 90);
+  border-radius: 5px;
+}
+
+.enterBtn {
+  margin-top: 20px;
+}
+
+.login-form h1 {
+  color: white;
+  font-size: 70px;
+}
+
+.messages-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.message {
+  width: max-content;
+  background-color: rgb(238, 238, 238);
+  border-radius: 5px;
+  width: 40vw;
+  margin-top: 15px;
+  padding: 8px;
+}
+
+.message.admin{
+  background-color: rgb(138, 238, 138);
+}
+
+.header {
+  font-weight: 700;
+  padding: 2px;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.msg-text {
+  padding: 8px 5px;
+  font-size: 15px;
+}
+
+.head {
+  color: rgb(29, 34, 31);
+  font-size: 50px;
+  text-align: center;
+}
